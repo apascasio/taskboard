@@ -1,5 +1,6 @@
 <div class="jumbotron">
 	<h1> Taskboard</h1>
 	<p>This is my way of doing a task list of my aplicacaciones</p>
-	<%= link_to "Sign up", "#", class: btn btn-primary btn-lg %>
+	<%= link_to "Sign up", "#", class: "btn btn-primary btn-lg" %>
+
 </div>
