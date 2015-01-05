@@ -5,6 +5,8 @@ gem 'bootstrap-sass'
 
 #Add Font Awesome for Awesome Fonts
 gem 'font-awesome-rails'
+#Add simple_form
+gem 'simple_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
