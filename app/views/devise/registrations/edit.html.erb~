@@ -16,7 +16,7 @@
  
 
 
-    <%= f.button :submit, "Update", class:"btn btn-primary btn-block" %>
+    <%= f.button :submit, "Update" %>
 
 <% end %>
 
