@@ -6,7 +6,10 @@
 	<div class="col-md-8">
 
 		<div class="panel panel-primary">
-		 <div class="panel-heading"><%= board.name %></div>
+		 <div class="panel-heading">
+			<%= board.name %>
+			<%= link_to "x", board_path(board), method: :delete, data: {confirm: "Are you sure?"}, class: "pull-right" %>
+		</div>
 			<div class="panel-body">
 				<%= board.description %>
 			</div>
@@ -24,7 +27,7 @@
 		<div class="col-md-4">
 			<div class="panel panel-success">
 				<div class="panel-heading">
-					tittle
+					number of unfinished tasks
 				</div> 
 				<div class="panel-body">
 					number of unfinished tasks
